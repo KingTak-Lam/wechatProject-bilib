@@ -1,0 +1,44 @@
+.my_title{
+    display: flex;
+    align-items: center;
+    padding: 10rpx;
+    background-color: #fff;
+    }
+.logo{
+    flex: 7;
+}
+.search_icon {
+    flex :1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.user_icon {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.down_app {
+    flex: 3;
+    font-size: 30rpx;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: pink;
+    color: #fff;
+    border-radius: 10rpx;
+    padding: 10rpx;
+}
+.logo .logo_img {
+    width: 140rpx;
+    height: 60rpx;
+}
+.search_icon .search {
+    width: 60rpx;
+    height: 44rpx;
+}
+.user_icon .user {
+    width: 54rpx;
+    height: 60rpx;
+}
